@@ -1,1 +1,29 @@
-<p>basicos works!</p>
+<div class="text-layout">
+    <h1>Pipes básicos</h1>
+    <p>Pipes incluidos en Angular - Usualmente en el Common Module.</p>
+
+</div>
+
+<div class="grid text-layout">
+    <div class="col-4">
+        <p-card header="uppercase">
+            {{ nombreUpper | uppercase }}
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="lowercase">
+            {{ nombreLower | lowercase }}
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="titlecase">
+            {{ nombreCompleto | titlecase }}
+        </p-card>
+    </div>
+</div>
+
+<div class="text-layout">
+    <h1>Date | fecha |Pipe</h1>
+    <p>Pipes para mostrar las <a href="https://angular.io/api/common/DatePipe" target="_blank">fechas</a> </p>
+
+</div>
